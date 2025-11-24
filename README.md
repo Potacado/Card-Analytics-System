@@ -16,6 +16,7 @@ It is a WordPress-based application designed to manage trading card collections,
 
 ### 1. Setup WordPress
 Ensure you have a standard WordPress installation running on your localhost (via XAMPP).
+You can look at: https://youtu.be/usoJ6ckzUz8?si=Jy-Xi3zWP-vW3P6r
 
 ### 2. Install the Plugin
 1. Download `card-analytics.php` from this repository.
