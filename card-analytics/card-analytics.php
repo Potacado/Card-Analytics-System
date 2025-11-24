@@ -12,6 +12,10 @@ add_action('wp_enqueue_scripts', 'load_chart_scripts');
 
 // 1. Dashboard
 function display_interactive_dashboard() {
+    if (!is_user_logged_in()) {
+        return '<script>window.location.href="' . wp_login_url() . '";</script>';
+    }
+
     $current_user = wp_get_current_user();
     $args = array('post_type' => 'cards', 'author' => $current_user->ID, 'posts_per_page' => -1);
     $cards = get_posts($args);
