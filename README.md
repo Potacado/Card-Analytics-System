@@ -9,8 +9,6 @@ It is a WordPress-based application designed to manage trading card collections,
 - **Plugins Required:**
   - Advanced Custom Fields (ACF)
   - Custom Post Type UI (CPT UI)
-  - Visualizer: Tables and Charts for WordPress
-  - WP All Import
   - Astra Theme (Recommended)
 
 ## Installation Guide
