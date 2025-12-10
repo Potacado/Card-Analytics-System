@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+	<title>Card Trading Demo</title>
+	<link>http://localhost/wordpress</link>
+	<description>Data Only</description>
+	<pubDate>Tue, 09 Dec 2025 10:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
+	<wp:base_blog_url>http://localhost/wordpress</wp:base_blog_url>
+
+    <!-- Pages -->
+	<item>
+		<title>My Card Collection</title>
+		<link>http://localhost/wordpress/my-card-collection/</link>
+		<pubDate>Mon, 24 Nov 2025 13:12:22 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[interactive_dashboard]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>page</wp:post_type>
+	</item>
+
+	<item>
+		<title>Market Trends</title>
+		<link>http://localhost/wordpress/market-trends/</link>
+		<pubDate>Mon, 24 Nov 2025 13:15:27 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[market_overview]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>page</wp:post_type>
+	</item>
+
+	<item>
+		<title>Price Alerts</title>
+		<link>http://localhost/wordpress/price-alerts/</link>
+		<pubDate>Mon, 24 Nov 2025 13:16:39 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->
+[price_alert_system]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>page</wp:post_type>
+	</item>
+
+    <!-- Menu -->
+    <item><title>Main Menu</title><wp:post_type>nav_menu_item</wp:post_type><wp:status>publish</wp:status><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value>http://localhost/wordpress/wp-login.php</wp:meta_value></wp:postmeta><title>Login / My Account</title></item>
+    <item><title>My Card Collection</title><wp:post_type>nav_menu_item</wp:post_type><wp:status>publish</wp:status><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>31</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta></item>
+    <item><title>Market Trends</title><wp:post_type>nav_menu_item</wp:post_type><wp:status>publish</wp:status><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>33</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta></item>
+    <item><title>Price Alerts</title><wp:post_type>nav_menu_item</wp:post_type><wp:status>publish</wp:status><category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>36</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta></item>
+
+    <!-- Cards Data (這裡直接給值) -->
+    <item>
+		<title>Pikachu</title>
+		<pubDate>Mon, 24 Nov 2025 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>101</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>cards</wp:post_type>
+        <wp:postmeta><wp:meta_key>set</wp:meta_key><wp:meta_value>Base Set</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>rarity</wp:meta_key><wp:meta_value>Common</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>condition</wp:meta_key><wp:meta_value>Near Mint</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>market_price</wp:meta_key><wp:meta_value>5.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>purchase_cost</wp:meta_key><wp:meta_value>1.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>card_image_url</wp:meta_key><wp:meta_value>https://images.pokemontcg.io/base1/58_hires.png</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>historical_prices</wp:meta_key><wp:meta_value>[{"date":"2025-06-01","price":3.80},{"date":"2025-06-15","price":3.90},{"date":"2025-07-01","price":4.10},{"date":"2025-07-15","price":4.05},{"date":"2025-08-01","price":4.25},{"date":"2025-08-15","price":4.40},{"date":"2025-09-01","price":4.35},{"date":"2025-09-15","price":4.60},{"date":"2025-10-01","price":4.90},{"date":"2025-10-15","price":5.20},{"date":"2025-11-01","price":5.50},{"date":"2025-11-10","price":5.30},{"date":"2025-11-15","price":5.15},{"date":"2025-11-20","price":5.05},{"date":"2025-11-24","price":5.00}]</wp:meta_value></wp:postmeta>
+	</item>
+
+    <item>
+		<title>Charizard</title>
+		<pubDate>Mon, 24 Nov 2025 10:01:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>102</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>cards</wp:post_type>
+        <wp:postmeta><wp:meta_key>set</wp:meta_key><wp:meta_value>Base Set</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>rarity</wp:meta_key><wp:meta_value>Rare Holo</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>condition</wp:meta_key><wp:meta_value>Lightly Played</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>market_price</wp:meta_key><wp:meta_value>150.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>purchase_cost</wp:meta_key><wp:meta_value>120.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>card_image_url</wp:meta_key><wp:meta_value>https://images.pokemontcg.io/base1/4_hires.png</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>historical_prices</wp:meta_key><wp:meta_value>[{"date":"2025-11-01","price":140.00},{"date":"2025-11-05","price":145.00},{"date":"2025-11-10","price":142.00},{"date":"2025-11-15","price":150.00}]</wp:meta_value></wp:postmeta>
+	</item>
+
+    <item>
+		<title>Mewtwo</title>
+		<pubDate>Mon, 24 Nov 2025 10:02:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>103</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>cards</wp:post_type>
+        <wp:postmeta><wp:meta_key>set</wp:meta_key><wp:meta_value>Base Set</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>rarity</wp:meta_key><wp:meta_value>Rare Holo</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>condition</wp:meta_key><wp:meta_value>Near Mint</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>market_price</wp:meta_key><wp:meta_value>50.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>purchase_cost</wp:meta_key><wp:meta_value>45.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>card_image_url</wp:meta_key><wp:meta_value>https://images.pokemontcg.io/base1/10_hires.png</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>historical_prices</wp:meta_key><wp:meta_value>[{"date":"2025-11-01","price":48.00},{"date":"2025-11-05","price":49.00},{"date":"2025-11-10","price":49.50},{"date":"2025-11-15","price":50.00}]</wp:meta_value></wp:postmeta>
+	</item>
+
+    <item>
+		<title>Bulbasaur</title>
+		<pubDate>Mon, 24 Nov 2025 10:03:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>104</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>cards</wp:post_type>
+        <wp:postmeta><wp:meta_key>set</wp:meta_key><wp:meta_value>Base Set</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>rarity</wp:meta_key><wp:meta_value>Common</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>condition</wp:meta_key><wp:meta_value>Moderately Played</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>market_price</wp:meta_key><wp:meta_value>3.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>purchase_cost</wp:meta_key><wp:meta_value>100.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>card_image_url</wp:meta_key><wp:meta_value>https://images.pokemontcg.io/base1/44_hires.png</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>historical_prices</wp:meta_key><wp:meta_value>[{"date":"2025-11-01","price":2.80},{"date":"2025-11-15","price":3.00}]</wp:meta_value></wp:postmeta>
+	</item>
+
+    <item>
+		<title>Squirtle</title>
+		<pubDate>Mon, 24 Nov 2025 10:04:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>105</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>cards</wp:post_type>
+        <wp:postmeta><wp:meta_key>set</wp:meta_key><wp:meta_value>Base Set</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>rarity</wp:meta_key><wp:meta_value>Common</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>condition</wp:meta_key><wp:meta_value>Near Mint</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>market_price</wp:meta_key><wp:meta_value>4.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>purchase_cost</wp:meta_key><wp:meta_value>3.50</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>card_image_url</wp:meta_key><wp:meta_value>https://images.pokemontcg.io/base1/63_hires.png</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>historical_prices</wp:meta_key><wp:meta_value>[{"date":"2025-11-01","price":3.80},{"date":"2025-11-15","price":4.00}]</wp:meta_value></wp:postmeta>
+	</item>
+
+    <item>
+		<title>Gyarados</title>
+		<pubDate>Mon, 24 Nov 2025 10:05:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<wp:post_id>106</wp:post_id>
+		<wp:status>publish</wp:status>
+		<wp:post_type>cards</wp:post_type>
+        <wp:postmeta><wp:meta_key>set</wp:meta_key><wp:meta_value>Base Set</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>rarity</wp:meta_key><wp:meta_value>Rare Holo</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>condition</wp:meta_key><wp:meta_value>Near Mint</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>market_price</wp:meta_key><wp:meta_value>25.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>purchase_cost</wp:meta_key><wp:meta_value>20.00</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>card_image_url</wp:meta_key><wp:meta_value>https://images.pokemontcg.io/base1/6_hires.png</wp:meta_value></wp:postmeta>
+        <wp:postmeta><wp:meta_key>historical_prices</wp:meta_key><wp:meta_value>[{"date":"2025-11-01","price":22.00},{"date":"2025-11-15","price":25.00}]</wp:meta_value></wp:postmeta>
+	</item>
+
+</channel>
+</rss>
