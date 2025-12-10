@@ -30,13 +30,6 @@ To see the demo data (Pikachu, Charizard, etc.):
 3. Upload the `sample-data.xml` file provided in this repository.
 4. Assign the posts to an existing user.
 
-### 4. Setup Pages
-Create the following pages and insert the corresponding shortcodes:
-
-- **My Card Collection:** `[interactive_dashboard]`
-- **Price Alerts:** `[price_alert_system]`
-- **Market Trends:** `[market_overview]·
-
 ## Features Implemented
 - **Manage Collection:** View cards with real-time Profit/Loss calculation.
 - **Interactive Dashboard:** Dynamic filtering by rarity and total ROI calculation.
